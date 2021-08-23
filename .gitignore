@@ -1,0 +1,3 @@
+// 自动忽略上传node_modules文件
+node_modules/
+.vscode/
