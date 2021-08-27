@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 521px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_tnz5a8varv.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_tnz5a8varv.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_tnz5a8varv.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_tnz5a8varv.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_tnz5a8varv.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_tnz5a8varv.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
+}
+.logo {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background: url(./image/white-icon.svg) center center / 60px
+        60px no-repeat;
+}
+.web-font{
+    font-family:"webfont" !important;
+    font-size:32px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #FFF; 
 }
