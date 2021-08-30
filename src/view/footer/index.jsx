@@ -1,5 +1,6 @@
 import React from 'react'
 import { Layout, Select, message } from 'antd'
+import { FrownTwoTone } from '@ant-design/icons'
 import './footer.less'
 const { Footer } = Layout
 const { Option } = Select
@@ -33,7 +34,8 @@ function Bottom() {
     function handleChange(e) {
         if (e === 'enUS') {
             message.error({
-                // icon:
+                icon: <FrownTwoTone/>,
+                content: '暂不支持英文~'
             })
         }
     }
