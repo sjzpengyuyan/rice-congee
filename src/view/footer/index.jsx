@@ -68,6 +68,7 @@ function Bottom() {
 					defaultValue="zhCN"
 					style={{ width: 120 }}
 					onChange={handleChange}
+					value='zhCN'
 				>
 					<Option value="zhCN">中文</Option>
 					<Option value="enUS">English</Option>
