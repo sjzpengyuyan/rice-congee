@@ -2,12 +2,11 @@ import React from "react";
 import { Carousel } from "antd";
 import "./swiper.less";
 function Swiper(props) {
-  console.log(props);
   const clientHeight = document.documentElement.clientHeight;
   const contentStyle = {
-    height: clientHeight - props.height,
+    height: clientHeight - 100,
     color: "#fff",
-    lineHeight: clientHeight - props.height + "px",
+    lineHeight: clientHeight - 100 + "px",
     textAlign: "center",
     background: "#364d79",
   };
